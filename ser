@@ -1,0 +1,1 @@
+serialver -classpath ./target/classes com.objectsolve.practice.Role

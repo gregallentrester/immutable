@@ -1,0 +1,7 @@
+#!/bin/bash -p
+
+mvn clean install -B -DskipTests
+
+rm dependency-reduced-pom.xml
+
+java -jar ./target/ImmutableUser.jar
